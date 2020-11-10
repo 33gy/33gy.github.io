@@ -20,5 +20,4 @@
         drawCircle(coords[0], coords[1], getRandom(5,50));
     });
     
-    
 })();
