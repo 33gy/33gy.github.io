@@ -11,7 +11,6 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    padding-left: 10px;
 }
 
 .content {
@@ -19,12 +18,13 @@ body {
 }
 
 .fixed-sidebar {
-    background-color: #262b41;
+    background-color: #59a3f8;
     width: 12%;
     height: 100%;
     left: 0;
     top: 80px;
     position: absolute;
+    z-index: 1;
 }
 
 .navigation {
@@ -36,13 +36,14 @@ body {
 }
 
 .nav-list {
-    color: #aeb6cf;
+    color: #050505;
     font-size: 20px;
     padding-left: 50px;
+    text-decoration: none;
 }
 
 .sidebar-icon {
-    width: 33px;
+    width: 30px;
     position: absolute;
     left: 10;
 }
