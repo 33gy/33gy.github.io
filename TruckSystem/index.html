@@ -3,32 +3,31 @@
 
 <head>
     <!--Responsive-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--CSS-->
     <link rel="stylesheet" href="css\main.css">
+    <!--JS-->
     <script src="js/main.js" type="text/javascript"></script>
+    <!--Font Family-->
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 </head>
 
 <body>
-    <div id="sidenav" class="sidenav">
-        <a href="" class="name">Truck System</a>
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="#">Dashboard</a>
-        <a href="#">Jadwal Truck</a>
-        <a href="#">Terkirim</a>
-        <a href="#">Truck Telat</a>
-      </div>
-      
-    <div id="main" class="main">
-        <span style="font-size:30px;cursor:pointer;" onclick="nav()">&#9776;</span>
-        <div id="dashboard" style="padding-top:20px;"> 
-            <table>
-                <th>No</th>
-                <th>Customer</th>
-                <th>Transporter</th>
-                <th>Schedule Time</th>
-            </table>
-        </div>
+    <div class="fixed-topbar">
+        <h1>TRUCK SYSTEM</h1>
+    </div>
+    <div class="fixed-sidebar">
+        <ul class="navigation">
+            <li>
+                <img src="asset/loupe.png" class="sidebar-icon">
+                <p class="nav-list">Dashboard</p>
+                <hr class="divider">
+            </li>
+            <li>
+                <p class="nav-list">Schedule</p>
+                <hr class="divider">
+            </li>
+        </ul>
     </div>
 </body>
 
