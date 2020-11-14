@@ -78,6 +78,13 @@ body {
     left: 55px;
 }
 
+.icon-box-container img {
+    position: absolute;
+    width: 60px;
+    top: 20px;
+    left: 20px;
+}
+
 .icon-box-style {
     border-style: hidden;
     border-radius: 100px;
@@ -118,8 +125,4 @@ body {
 .text {
     font-weight: bold;
     font-size: 24px;
-}
-
-.main-container {
-
 }
