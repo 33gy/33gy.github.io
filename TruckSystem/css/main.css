@@ -63,7 +63,7 @@ body {
 
 .icon-box-style {
     border-style: hidden;
-    border-radius: 25px;
+    border-radius: 100px;
     background: #DFE3EE;
     width: 100px;
     height: 100px;
@@ -71,7 +71,7 @@ body {
 
 .text-container {
     position: absolute;
-    top: 140px;
+    top: 145px;
     left: 20px;
 }
 
@@ -93,6 +93,6 @@ body {
     border-style: hidden;
     border-radius: 25px;
     background: #DFE3EE;
-    width: 250px;
-    height: 155px;
+    width: 255px;
+    height: 160px;
 }
