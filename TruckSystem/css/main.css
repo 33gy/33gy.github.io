@@ -20,16 +20,18 @@ body {
 
 .sidebar-button {
     padding-left: 10px;
-    position: fixed;
+    padding-top: 10px;
+    position: absolute;
 }
 
-.main-container {
-    position: fixed;
-    padding: 250px;
+.sidebar-button img {
+    width: 50px;
 }
 
 .schedule-box.container {
-    position: fixed;
+    position: absolute;
+    left: 500px;
+    top: 1000px;
 }
 
 .late-box.container {
@@ -37,9 +39,9 @@ body {
 }
 
 .deliver-box.container {
-    position: fixed;
+    position: absolute;
 }
 
 .onload-box.container {
-    position: fixed;
+    position: absolute;
 }
