@@ -4,8 +4,8 @@ body {
 }
 
 .collapsed-sidebar {
-    background-color: #C81A1A;
-    width: 50px;
+    background: #3b5998;
+    width: 80px;
     height: 100%;
     left: 0;
     top: 0;
@@ -13,35 +13,86 @@ body {
     z-index: 1;
 }
 
-.main {
-    left: 50px;
-    position: absolute;
-}
-
 .sidebar-button {
-    padding-left: 10px;
-    padding-top: 10px;
-    position: absolute;
+    position: relative;
+    left: 90px;
+    top: 10px;
 }
 
 .sidebar-button img {
     width: 50px;
 }
 
-.schedule-box.container {
+.schedule-box-container {
     position: absolute;
-    left: 500px;
-    top: 1000px;
+    top: 200px;
+    left: 450px;
 }
 
-.late-box.container {
+.latearrive-box-container {
     position: absolute;
+    top: 500px;
+    left: 450px;
 }
 
-.deliver-box.container {
+.delivered-box-container {
     position: absolute;
+    top: 200px;
+    left: 1050px;
 }
 
-.onload-box.container {
+.onloading-box-container {
     position: absolute;
+    top: 500px;
+    left: 1050px;
+}
+
+.box-style {
+    width: 500px;
+    height: 200px;
+    border-style: hidden;  
+    border-radius: 25px;
+    background: #8B9DC3;
+}
+
+.icon-box-container {
+    position: absolute;
+    top: 20px;
+    left: 55px;
+}
+
+.icon-box-style {
+    border-style: hidden;
+    border-radius: 25px;
+    background: #DFE3EE;
+    width: 100px;
+    height: 100px;
+}
+
+.text-container {
+    position: absolute;
+    top: 140px;
+    left: 20px;
+}
+
+.text-container-style {
+    border-style: hidden;
+    border-radius: 25px;
+    background: #DFE3EE;
+    width: 170px;
+    height: 35px;
+}
+
+.counter-container {
+    position: absolute;
+    top: 20px;
+    left: 220px;
+}
+
+.counter-style {
+    border-style: hidden;
+    border-radius: 25px;
+    background: #DFE3EE;
+    width: 250px;
+    height: 155px;
 }
