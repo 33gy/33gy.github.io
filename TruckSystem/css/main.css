@@ -1,6 +1,8 @@
 body {
     font-family: "Roboto";
     background-color: #cacdda;
+    height: 100%;
+    width: 100%;
 }
 
 .collapsed-sidebar {
@@ -13,14 +15,29 @@ body {
     z-index: 1;
 }
 
+.dashboard {
+    position: absolute;
+    top: 110px;
+    left: 15px;
+}
+
+.dashboard img {
+    width: 50px;
+}
+
 .sidebar-button {
-    position: relative;
+    position: absolute;
     left: 90px;
     top: 10px;
 }
 
 .sidebar-button img {
     width: 50px;
+}
+
+.main-container {
+    position: fixed;
+    
 }
 
 .schedule-box-container {
@@ -81,6 +98,7 @@ body {
     background: #DFE3EE;
     width: 170px;
     height: 35px;
+    text-align: center;
 }
 
 .counter-container {
@@ -95,4 +113,13 @@ body {
     background: #DFE3EE;
     width: 255px;
     height: 160px;
+}
+
+.text {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.main-container {
+
 }

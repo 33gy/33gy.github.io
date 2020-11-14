@@ -14,43 +14,52 @@
 </head>
 
 <body>
-    <div class="collapsed-sidebar">
-        <div class="main-container">
-            <div class="sidebar-button">
-                <img src="asset\square.png">
+    <div id="sidebar" class="collapsed-sidebar">
+        <div class="icon-sidebar">
+            <div class="dashboard">
+                <img src="asset\png\home-interface-symbol.png">
             </div>
-            <div class="schedule-box-container box-style">
-                <div class="icon-box-container icon-box-style">
-                </div>
-                <div class="text-container text-container-style">
-                </div>
-                <div class="counter-container counter-style">
-                </div>
-            </div>   
-            <div class="delivered-box-container box-style">
-                <div class="icon-box-container icon-box-style"> 
-                </div>
-                <div class="text-container text-container-style">
-                </div>
-                <div class="counter-container counter-style">
-                </div>
+        </div>
+    </div>
+    <div id="main" class="main-container">
+        <div class="sidebar-button" onclick="nav()">
+            <img src="asset\png\menu-symbol-of-four-lines.png">
+        </div>
+        <div class="schedule-box-container box-style">
+            <div class="icon-box-container icon-box-style">
             </div>
-            <div class="latearrive-box-container box-style">
-                <div class="icon-box-container icon-box-style"> 
-                </div>
-                <div class="text-container text-container-style">
-                </div>
-                <div class="counter-container counter-style">
-                </div>
-            </div>   
-            <div class="onloading-box-container box-style">
-                <div class="icon-box-container icon-box-style"> 
-                </div>
-                <div class="text-container text-container-style">
-                </div>
-                <div class="counter-container counter-style">
-                </div>
-            </div>                                                                                                                                                                             
+            <div class="text-container text-container-style">
+                <span class="text">SCHEDULE</span>
+            </div>
+            <div class="counter-container counter-style">
+            </div>
+        </div>
+        <div class="delivered-box-container box-style">
+            <div class="icon-box-container icon-box-style">
+            </div>
+            <div class="text-container text-container-style">
+                <span class="text">DELIVERED</span>
+            </div>
+            <div class="counter-container counter-style">
+            </div>
+        </div>
+        <div class="latearrive-box-container box-style">
+            <div class="icon-box-container icon-box-style">
+            </div>
+            <div class="text-container text-container-style">
+                <span class="text">LATE ARRIVE</span>
+            </div>
+            <div class="counter-container counter-style">
+            </div>
+        </div>
+        <div class="onloading-box-container box-style">
+            <div class="icon-box-container icon-box-style">
+            </div>
+            <div class="text-container text-container-style">
+                <span class="text">ON LOADING</span>
+            </div>
+            <div class="counter-container counter-style">
+            </div>
         </div>
     </div>
 </body>
