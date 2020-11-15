@@ -31,12 +31,9 @@ body {
     top: 10px;
 }
 
-.sidebar-button img {
-    width: 50px;
-}
-
 .main-container {
-    position: fixed;    
+    position: fixed; 
+    width: 100%;   
 }
 
 .schedule-box-container {
